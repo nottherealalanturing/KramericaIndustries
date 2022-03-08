@@ -180,7 +180,6 @@ html {
 
 .hero-text-2 {
   padding: 15px;
-
   color: #272a31;
 }
 
@@ -194,4 +193,76 @@ html {
   color: #272a31;
   font-weight: 400;
   font-size: 2rem;
+}
+
+.services {
+  background-color: #272a31;
+  padding: 70px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-heading {
+  color: #d3d3d3;
+  text-align: center;
+  position: relative;
+  font-weight: 400;
+}
+
+.services-heading::after {
+  content: '';
+  position: absolute;
+  width: 55px;
+  height: 1px;
+  background-color: #ec5242;
+  bottom: -16px;
+  left: calc(50% - 27px);
+}
+
+.services ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.service-item {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #3c3f46;
+  padding: 20px;
+}
+
+.service-item-image {
+  flex: 1 1 100px;
+}
+.service-item-title {
+  flex: 2 2 100%;
+  color: #ec5242;
+}
+.service-item-description {
+  flex: 2 2 400px;
+  color: #d3d3d3;
+}
+
+.services-button {
+  background-color: #ec5242;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  color: #d3d3d3;
+  width: 60%;
+}
+
+.employees {
+  background-color: #272a31;
+  padding: 70px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
