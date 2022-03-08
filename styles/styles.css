@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('../assets/fonts/Cocogoose.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -6,9 +15,14 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
 #nav-icon {
-  width: 40px;
-  height: 20px;
+  width: 65px;
+  height: 40px;
   position: relative;
   margin: 30px 15px;
   -webkit-transform: rotate(0deg);
@@ -20,13 +34,14 @@
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  z-index: 10;
 }
 
 #nav-icon span {
   display: block;
   position: absolute;
-  height: 9px;
-  width: 50%;
+  height: 5px;
+  width: 20%;
   background: #272a31;
   opacity: 1;
   -webkit-transform: rotate(0deg);
@@ -40,7 +55,7 @@
 }
 
 #nav-icon span:nth-child(even) {
-  left: 50%;
+  left: 20%;
 }
 
 #nav-icon span:nth-child(odd) {
@@ -54,12 +69,12 @@
 
 #nav-icon span:nth-child(3),
 #nav-icon span:nth-child(4) {
-  top: 18px;
+  top: 10px;
 }
 
 #nav-icon span:nth-child(5),
 #nav-icon span:nth-child(6) {
-  top: 36px;
+  top: 20px;
 }
 
 #nav-icon.open span:nth-child(1),
@@ -106,4 +121,77 @@
 #nav-icon.open span:nth-child(6) {
   left: calc(50% - 5px);
   top: 29px;
+}
+
+.navigation-mobile {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: red;
+  display: none;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.navigation-mobile ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40%;
+}
+
+.navigation-mobile ul li a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navigation-mobile-open {
+  display: block;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 15px;
+}
+
+.hero-text-1 {
+  color: #ec5242;
+}
+
+.hero-header-1 {
+  color: #ec5242;
+  font-weight: 700;
+  font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+}
+
+.hero-text-2 {
+  padding: 15px;
+
+  color: #272a31;
+}
+
+.hero-header-2 {
+  color: #272a31;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.hero-text-3 {
+  color: #272a31;
+  font-weight: 400;
+  font-size: 2rem;
 }
