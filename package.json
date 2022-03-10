@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "lintjs": "npx eslint .",
+    "linthtml": "npx hint .",
+    "lintcss": "npx stylelint \"**/*.{css,scss}\""
+  },
   "devDependencies": {
     "hint": "6.x",
     "stylelint": "13.x",
