@@ -30,7 +30,7 @@ const productsArrays = [
   },
 ];
 
-export const loadproducts = () => {
+const loadproducts = () => {
   for (let i = 0; i < productsArrays.length; i += 1) {
     const literal = `
     <li class="about-past-item-1">
@@ -44,3 +44,5 @@ export const loadproducts = () => {
   }
   products.innerHTML += productsLists;
 };
+
+export default loadproducts;

@@ -59,7 +59,7 @@ const employeesArrays = [
   },
 ];
 
-export const loadEmployees = () => {
+const loadEmployees = () => {
   for (let i = 0; i < employeesArrays.length; i += 1) {
     const literal = `
     <li class="employees-item">
@@ -90,3 +90,5 @@ export const loadEmployees = () => {
   }
   employees.innerHTML += employeesLists;
 };
+
+export default loadEmployees;

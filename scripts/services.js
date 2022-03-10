@@ -40,7 +40,7 @@ const servicesArrays = [
   },
 ];
 
-export const loadServices = () => {
+const loadServices = () => {
   for (let i = 0; i < servicesArrays.length; i += 1) {
     const literal = `
     <li class="service-item">
@@ -58,3 +58,5 @@ export const loadServices = () => {
   }
   services.innerHTML += servicesLists;
 };
+
+export default loadServices;

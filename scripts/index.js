@@ -1,3 +1,3 @@
-export { loadEmployees as loadEmployees } from './employees.js';
-export { loadproducts as loadproducts } from './products.js';
-export { loadServices as loadServices } from './services.js';
+export { default as loadEmployees } from './employees.js';
+export { default as loadproducts } from './products.js';
+export { default as loadServices } from './services.js';
