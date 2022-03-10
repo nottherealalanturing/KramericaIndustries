@@ -1,3 +1,8 @@
+import { loadEmployees } from './employees.js';
+import { loadServices } from './services.js';
+loadEmployees();
+loadServices();
+
 const navIconMobile = document.getElementById('nav-icon');
 const navMobile = document.querySelector('.navigation-mobile');
 const hero = document.querySelector('.hero');

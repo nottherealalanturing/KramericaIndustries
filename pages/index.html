@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kramerica Industries - Microverse Capstone Project</title>
     <link rel="stylesheet" href="../styles/styles.css" />
-    <script src="../scripts/app.js" defer></script>
+    <script type="module" src="../scripts/app.js" defer></script>
   </head>
   <body>
     <header>
@@ -50,9 +50,9 @@
             <a href="../pages/about.html">ABOUT</a>
           </li>
           <li>
-          <a href="#" class="ki-campaign">KI Internship</a>
+            <a href="#" class="ki-campaign">KI Internship</a>
+          </li>
         </ul>
-      </li>
       </nav>
     </header>
     <main class="hero">
@@ -61,7 +61,10 @@
       <p class="hero-text-2 mt-20">
         It's business as usual here at Kramerica Industries, we are a space
         value creation company that provides people with inspiring and exciting
-        experiences by fusing digital technology and real space. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam explicabo libero neque cupiditate est dolore earum repellat illo voluptatem rerum ea, ab suscipit animi, voluptates incidunt! Laboriosam nulla vel nostrum?
+        experiences by fusing digital technology and real space. Lorem ipsum,
+        dolor sit amet consectetur adipisicing elit. Totam explicabo libero
+        neque cupiditate est dolore earum repellat illo voluptatem rerum ea, ab
+        suscipit animi, voluptates incidunt! Laboriosam nulla vel nostrum?
       </p>
       <!-- <a href="./products.html">Our Products</a> -->
       <p class="hero-text-3 mt-20">
@@ -73,101 +76,13 @@
 
     <section class="services mt-20">
       <h2 class="services-heading">Our Services</h2>
-      <ul>
-        <li class="service-item">
-          <img
-            src="../assets/icons/oil-tank.svg"
-            alt="oil-tank"
-            class="service-item-image"
-          />
-          <h4 class="service-item-title">The Oil Bladder System</h4>
-          <p class="service-item-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            eaque.
-          </p>
-        </li>
-        <li class="service-item">
-          <img
-            src="../assets/icons/persicope.svg"
-            alt="car periscope"
-            class="service-item-image"
-          />
-          <h4 class="service-item-title">The Car Periscope</h4>
-          <p class="service-item-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            eaque.
-          </p>
-        </li>
-        <li class="service-item">
-          <img
-            src="../assets/icons/kitten-mitten.svg"
-            alt="Kitten-mitten"
-            class="service-item-image"
-          />
-          <h4 class="service-item-title">Kitten Mittens</h4>
-          <p class="service-item-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            eaque.
-          </p>
-        </li>
-      </ul>
+      <ul id="services-ul"></ul>
       <a href="#" class="services-button mt-20">Speak to our expert</a>
     </section>
 
     <section class="employees mt-20">
       <h2 class="employees-heading">Our Employees</h2>
-      <ul class="mt-20">
-        <li class="employees-item">
-          <div class="employees-item-image-div">
-            <img
-              src="../assets/images/checkered-pattern.jpg"
-              alt="checkered-pattern"
-              class="employees-item-image-1"
-            />
-            <img
-              src="../assets/images/newaman.jpeg"
-              alt="newman"
-              class="employees-item-image-2"
-            />
-          </div>
-
-          <div class="employees-item-info">
-            <div>
-              <h4 class="service-item-info-name">Frank Reynolds</h4>
-              <p class="service-item-info-role">CEO Frank Fluids</p>
-            </div>
-            <p class="service-item-info-description mt-20">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              eaque.
-            </p>
-          </div>
-        </li>
-        <li class="employees-item">
-          <div class="employees-item-image-div">
-            <img
-              src="../assets/images/checkered-pattern.jpg"
-              alt="checkered-pattern"
-              class="employees-item-image-1"
-            />
-            <img
-              src="../assets/images/frankr.jpg"
-              alt="franks"
-              class="employees-item-image-2"
-            />
-          </div>
-
-          <div class="employees-item-info">
-            <div>
-              <h4 class="service-item-info-name">Frank Reynolds</h4>
-              <p class="service-item-info-role">CEO Frank Fluids</p>
-            </div>
-            <p class="service-item-info-description mt-20">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              eaque.
-            </p>
-          </div>
-        </li>
-      </ul>
+      <ul id="employees-ul" class="mt-20"></ul>
       <button type="button" class="employees-button mt-20">
         More <img src="../assets//icons/more.svg" alt="load more employees" />
       </button>
@@ -204,7 +119,12 @@
       </div>
       <div class="index-footer-2">
         <p>2022 Kramerica Industries, All Rights Reserved</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis fuga iure debitis commodi iste, nobis repellat minus perferendis modi voluptatum! Deleniti corrupti inventore temporibus quaerat laboriosam perspiciatis reprehenderit pariatur explicabo.</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
+          fuga iure debitis commodi iste, nobis repellat minus perferendis modi
+          voluptatum! Deleniti corrupti inventore temporibus quaerat laboriosam
+          perspiciatis reprehenderit pariatur explicabo.
+        </p>
       </div>
     </footer>
   </body>
