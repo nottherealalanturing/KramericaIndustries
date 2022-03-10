@@ -20,6 +20,7 @@ html {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
+/* Navigation Mobile */
 #nav-icon {
   width: 65px;
   height: 40px;
@@ -170,14 +171,11 @@ html {
   margin-top: 20px;
 }
 
+/* Index Page Mobile */
 .hero {
   display: flex;
   flex-direction: column;
   margin: 100px 15px;
-  /*  background-image: url('../assets//bg/business_decisions.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top right; */
 }
 
 .hero-text-1 {
@@ -573,4 +571,51 @@ html {
   font-weight: 700;
   font-size: 0.9rem;
   color: #272a31;
+}
+
+@media only screen and (min-width: 768px) {
+  #nav-icon {
+    display: none;
+  }
+
+  .navigation-mobile {
+    display: none;
+  }
+
+  .top-bar {
+    background-color: #272a31;
+    padding: 5px 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
+  }
+
+  .top-bar a {
+    text-decoration: none;
+    color: #d3d3d3;
+    font-size: 14px;
+  }
+
+  .nav-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: #d3d3d3;
+  }
+
+  .nav-desktop a {
+    text-decoration: none;
+  }
+
+  .index-logo {
+    height: 50px;
+  }
+
+  .nav-desktop-ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+  }
 }
