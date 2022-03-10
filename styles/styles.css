@@ -382,21 +382,21 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 15px;
+  padding: 100px 15px;
 }
 
 .about-hero-text-1 {
   color: #ec5242;
   margin-bottom: 20px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .about-hero-header-1 {
   color: #ec5242;
   font-weight: 700;
   font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 40px;
+  font-size: 3rem;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -404,7 +404,7 @@ html {
   padding: 15px;
   color: #272a31;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .about-hero-text-3 {
@@ -414,7 +414,14 @@ html {
 .about-hero-email {
   color: #272a31;
   font-weight: 900;
-  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-hero-email img {
+  width: 30px;
 }
 
 .about-logo {
@@ -551,8 +558,11 @@ html {
 }
 
 .footer {
-  display: flex;
+  display: grid;
   padding: 20px;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer-1 {
@@ -562,8 +572,6 @@ html {
 }
 
 .footer-1 img {
-  display: flex;
-  gap: 10px;
   width: 1rem;
 }
 
@@ -571,14 +579,21 @@ html {
   font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   color: #272a31;
-  display: flex;
   gap: 10px;
 }
 
-.footer-2 {
+.footer-2 :nth-child(1) {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 0.9rem;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #272a31;
+}
+
+.footer-2 :nth-child(2) {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 0.5rem;
   color: #272a31;
 }
 
@@ -627,6 +642,7 @@ html {
     list-style-type: none;
     gap: 20px;
     justify-content: space-between;
+    align-items: center;
   }
 
   .nav-desktop-li a {
@@ -639,6 +655,7 @@ html {
   }
 
   .ki-campaign {
+    margin-left: 50px;
     border: 1px solid #ec5242;
     padding: 10px;
     color: #3c3f46;
@@ -691,6 +708,10 @@ html {
     line-height: 1.5;
   }
 
+  .services {
+    padding: 70px 10%;
+  }
+
   .services ul {
     display: flex;
     flex-direction: row;
@@ -737,5 +758,256 @@ html {
   .services-button:hover {
     background-color: #ec534200;
     color: #d3d3d3;
+  }
+
+  .employees ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .employees-button {
+    display: none;
+  }
+
+  .index-partners {
+    background-color: #272a31;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-partners-heading {
+    color: #d3d3d3;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+  }
+
+  .index-partners-heading::after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 1px;
+    background-color: #ec5242;
+    bottom: -10px;
+    left: calc(50% - 27px);
+  }
+
+  .index-partners ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .index-partners-item {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+  }
+
+  .index-partners-item img {
+    width: 150px;
+  }
+
+  .index-footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 100px 10%;
+  }
+
+  .index-footer-1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .index-footer-1 img {
+    width: 1rem;
+  }
+
+  .index-footer-1 h2 {
+    font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #272a31;
+    display: flex;
+    gap: 10px;
+  }
+
+  .index-footer-2 :nth-child(1) {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #272a31;
+  }
+
+  .index-footer-2 :nth-child(2) {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    color: #272a31;
+  }
+
+  /* ABOUT PAGE DESKTOP */
+  .about-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10%;
+  }
+
+  .about-hero-text-1 {
+    color: #ec5242;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .about-hero-header-1 {
+    color: #ec5242;
+    font-weight: 700;
+    font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .about-hero-text-2 {
+    padding: 15px;
+    color: #272a31;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .about-hero-text-3 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .about-hero-email {
+    color: #272a31;
+    font-weight: 900;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .about-hero-email img {
+    width: 40px;
+  }
+
+  .about-logo {
+    width: 500px;
+    padding: 50px;
+    margin-bottom: 40px;
+  }
+
+  .about-past {
+    padding: 70px 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-past ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+  }
+
+  .about-partners {
+    background-color: #272a31;
+    padding: 70px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-partners-heading {
+    color: #d3d3d3;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+  }
+
+  .about-partners-heading::after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 1px;
+    background-color: #ec5242;
+    bottom: -10px;
+    left: calc(50% - 27px);
+  }
+
+  .about-partners ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-partners-item {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+  }
+
+  .about-partners-item img {
+    width: 150px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 100px 10%;
+  }
+
+  .footer-1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .footer-1 img {
+    width: 1rem;
+  }
+
+  .footer-1 h2 {
+    font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #272a31;
+
+    gap: 10px;
+  }
+
+  .footer-2 :nth-child(1) {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #272a31;
+  }
+
+  .footer-2 :nth-child(2) {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    color: #272a31;
   }
 }
