@@ -1,5 +1,7 @@
 import { loadEmployees, loadServices, loadproducts } from './index.js';
 
+const products = document.getElementById('productslaunch-ul');
+
 if (document.getElementById('productslaunch-ul') !== null) {
   loadproducts();
 }
@@ -17,6 +19,7 @@ const employees = document.querySelector('.employees');
 const partners = document.querySelector('.index-partners');
 const footer = document.querySelector('.index-footer');
 
+/* eslint-disable */
 navIconMobile.addEventListener('click', () => {
   navIconMobile.classList.toggle('open');
   navMobile.classList.toggle('navigation-mobile-open');
@@ -36,3 +39,5 @@ navIconMobile.addEventListener('click', () => {
     ? (hero.style.display = 'none')
     : (hero.style.display = 'flex');
 });
+
+/* eslint-enable */
