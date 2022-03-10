@@ -142,6 +142,10 @@ html {
   margin-top: 40%;
 }
 
+.navigation-mobile ul li {
+  list-style-type: none;
+}
+
 .navigation-mobile ul li a {
   padding: 8px;
   text-decoration: none;
@@ -158,6 +162,10 @@ html {
   display: block;
 }
 
+*.hide {
+  display: none;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -166,6 +174,10 @@ html {
   display: flex;
   flex-direction: column;
   margin: 100px 15px;
+  /*  background-image: url('../assets//bg/business_decisions.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right; */
 }
 
 .hero-text-1 {
@@ -356,22 +368,69 @@ html {
   gap: 5px;
 }
 
-.partners {
-  background-color: #272a31;
+/* About Page */
+
+.about-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 15px;
+}
+
+.about-hero-text-1 {
+  color: #ec5242;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.about-hero-header-1 {
+  color: #ec5242;
+  font-weight: 700;
+  font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-hero-text-2 {
+  padding: 15px;
+  color: #272a31;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.about-hero-text-3 {
+  text-align: center;
+}
+
+.about-hero-email {
+  color: #272a31;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.about-logo {
+  width: 400px;
+  padding: 50px;
+  margin-bottom: 40px;
+}
+
+.about-past {
   padding: 70px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.partners-heading {
-  color: #d3d3d3;
+.about-past-heading {
+  color: #272a31;
   text-align: center;
   position: relative;
   font-weight: 400;
 }
 
-.partners-heading::after {
+.about-past-heading::after {
   content: '';
   position: absolute;
   width: 55px;
@@ -379,4 +438,139 @@ html {
   background-color: #ec5242;
   bottom: -16px;
   left: calc(50% - 27px);
+  font-size: 1.2rem;
+}
+
+.about-past-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about-past ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-past-item-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background-image: url('../assets/images/product-school2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-past-item-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background-image: url('../assets/images/product-school1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+}
+
+.about-past-item-1 .about-past-item-year {
+  color: #d3d3d3;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about-past-item-2 .about-past-item-year {
+  color: #272a31;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about-past-item-1 .about-past-item-description {
+  color: #d3d3d3;
+  font-weight: 700;
+}
+
+.about-past-item-2 .about-past-item-description {
+  color: #272a31;
+  font-weight: 700;
+}
+
+.about-partners {
+  background-color: #272a31;
+  padding: 70px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-partners-heading {
+  color: #d3d3d3;
+  text-align: center;
+  position: relative;
+  font-weight: 400;
+}
+
+.about-partners-heading::after {
+  content: '';
+  position: absolute;
+  width: 55px;
+  height: 1px;
+  background-color: #ec5242;
+  bottom: -10px;
+  left: calc(50% - 27px);
+}
+
+.about-partners ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-partners-item {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+}
+
+.about-partners-item img {
+  width: 100px;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+}
+
+.footer-1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-1 img {
+  display: flex;
+  gap: 10px;
+  width: 1rem;
+}
+
+.footer-1 h2 {
+  font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #272a31;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-2 {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #272a31;
 }
