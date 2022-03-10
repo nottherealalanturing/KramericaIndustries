@@ -155,7 +155,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@assadeesaa](https://twitter.com/assadeesaa) - nottherealalanturing@gmail.com
+Assad Isah - [@assadeesaa](https://twitter.com/assadeesaa) - nottherealalanturing@gmail.com
 
 Project Link: [https://github.com/nottherealalanturing/KramericaIndustries](https://github.com/nottherealalanturing/KramericaIndustries)
 
