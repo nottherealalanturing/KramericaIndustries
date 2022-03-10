@@ -1064,4 +1064,35 @@ html {
     font-size: 0.8rem;
     color: #272a31;
   }
+
+  #smoke1,
+  #smoke2 {
+    animation: smoke 2s linear infinite;
+  }
+
+  @keyframes smoke {
+    from {
+      opacity: 0;
+    }
+
+    20% {
+      opacity: 0.2;
+    }
+
+    40% {
+      opacity: 0.4;
+    }
+
+    80% {
+      opacity: 0.6;
+    }
+
+    from {
+      opacity: 0.8;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
 }
