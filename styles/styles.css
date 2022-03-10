@@ -137,12 +137,12 @@ html {
   width: 100vw;
   height: 100vh;
   position: fixed;
+  display: none;
   top: 0;
   left: 0;
-  background: red;
-  display: none;
+  background-color: #d3d3d3;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.9s;
 }
 
 .navigation-mobile ul {
@@ -162,7 +162,7 @@ html {
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
-  color: #fff;
+  color: #272a31;
   display: block;
   transition: 0.3s;
   cursor: pointer;
@@ -379,6 +379,7 @@ html {
 .index-partners {
   display: none;
 }
+
 .index-footer {
   display: none;
 }
@@ -493,6 +494,13 @@ html {
   background-image: url('../assets/images/product-school2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all 0.9s;
+}
+
+.about-past-item-1:hover {
+  transform: scale(1.1);
+  border: 1px solid #272a31;
+  border-radius: 4px;
 }
 
 .about-past-item-2 {
@@ -668,8 +676,7 @@ html {
     color: #3c3f46;
   }
 
-  .nav-desktop-li a:active,
-  .nav-desktop-li a:visited {
+  .nav-desktop-li a:active {
     color: #ec5242;
   }
 
@@ -691,6 +698,12 @@ html {
     display: flex;
     flex-direction: column;
     padding: 10% 10%;
+    background-image: url('../assets/bg/undraw_interview.svg');
+    background-image: url('../assets/bg/undraw_coffee_break.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30%;
+    background-origin: content-box;
   }
 
   .hero-text-1 {
@@ -747,6 +760,13 @@ html {
     background-color: #3c3f46;
     padding: 20px;
     gap: 10px;
+    transition: all 0.5s;
+  }
+
+  .service-item:hover {
+    transform: scale(1.1);
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
   }
 
   .service-item-image {

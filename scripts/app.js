@@ -1,14 +1,20 @@
-import { loadEmployees } from './employees.js';
-import { loadServices } from './services.js';
-loadEmployees();
-loadServices();
+import { loadEmployees, loadServices, loadproducts } from './index.js';
+if (document.getElementById('productslaunch-ul') !== null) {
+  loadproducts();
+}
+
+if (document.getElementById('employees-ul') !== null) {
+  loadEmployees();
+  loadServices();
+}
 
 const navIconMobile = document.getElementById('nav-icon');
 const navMobile = document.querySelector('.navigation-mobile');
 const hero = document.querySelector('.hero');
 const services = document.querySelector('.services');
 const employees = document.querySelector('.employees');
-const footer = document.querySelector('.footer');
+const partners = document.querySelector('.index-partners');
+const footer = document.querySelector('.index-footer');
 
 navIconMobile.addEventListener('click', () => {
   navIconMobile.classList.toggle('open');
@@ -22,6 +28,9 @@ navIconMobile.addEventListener('click', () => {
   footer.style.display !== 'none'
     ? (footer.style.display = 'none')
     : (footer.style.display = 'flex');
+  partners.style.display !== 'none'
+    ? (partners.style.display = 'none')
+    : (partners.style.display = 'flex');
   hero.style.display !== 'none'
     ? (hero.style.display = 'none')
     : (hero.style.display = 'flex');
