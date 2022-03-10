@@ -493,10 +493,28 @@ html {
   align-items: center;
   justify-content: center;
   padding: 80px 20px;
-  background-image: url('../assets/images/product-school2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.9s;
+}
+
+.about-past-item-1:nth-child(1) {
+  background-image: url('../assets/images/product-school2.jpg');
+}
+
+.about-past-item-1:nth-child(2) {
+  background-image: url('../assets/images/product-school1.jpg');
+}
+
+.about-past-item-1:nth-child(3) {
+  background-image: url('../assets/images/product-school.jpg');
+}
+
+.about-past-item-1:nth-child(4) {
+  background-image: url('../assets/images/product-school2.jpg');
+}
+.about-past-item-1:nth-child(5) {
+  background-image: url('../assets/images/product-school2.jpg');
 }
 
 .about-past-item-1:hover {
@@ -864,9 +882,10 @@ html {
   }
 
   .index-footer {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 5%;
     padding: 100px 10%;
   }
 

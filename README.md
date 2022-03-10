@@ -28,23 +28,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/nottherealalanturing/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://nottherealalanturing.github.io/KramericaIndustries/index.html">
+    <img src="./assets/icons/Logo.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 alig n="center"</h3>
 
   <p align="center">
-    A website for the fictional "Kramerica Industries"
+    A website for the fictional "Kramerica Industries" from the greatest TV sitcom evermade Seinfeld.
     <br />
-    <a href="https://github.com/nottherealalanturing/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/nottherealalanturing/kramericaindustries"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/nottherealalanturing/repo_name">View Demo</a>
+    <a href="https://nottherealalanturing.github.io/KramericaIndustries/index.html">View Demo</a>
     ·
-    <a href="https://github.com/nottherealalanturing/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/nottherealalanturing/kramericaindustries/issues">Report Bug</a>
     ·
-    <a href="https://github.com/nottherealalanturing/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/nottherealalanturing/kramericaindustries/issues">Request Feature</a>
   </p>
 </div>
 
@@ -78,9 +78,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `nottherealalanturing`, `KramericaIndustries`, `assadeesaa`, `assadisah`, `gmail`, `email`, `Kramerica Industries`, `A website for the fictional "Kramerica Industries"`
+[![Kramerica Industries][product-screenshot]](https://nottherealalanturing.github.io/KramericaIndustries/index.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -157,7 +155,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@assadeesaa](https://twitter.com/assadeesaa) - email@gmail.com
+Your Name - [@assadeesaa](https://twitter.com/assadeesaa) - nottherealalanturing@gmail.com
 
 Project Link: [https://github.com/nottherealalanturing/KramericaIndustries](https://github.com/nottherealalanturing/KramericaIndustries)
 
@@ -167,7 +165,9 @@ Project Link: [https://github.com/nottherealalanturing/KramericaIndustries](http
 
 ## Acknowledgments
 
-- []()
+Design and inspiration by Cindy Shin on Behance.
+
+- [https://www.behance.net/gallery/29845175/CC-Global-Summit-2015](Design and inspiration by Cindy Shin on Behance.)
 - []()
 - []()
 
@@ -179,13 +179,13 @@ Project Link: [https://github.com/nottherealalanturing/KramericaIndustries](http
 [contributors-shield]: https://img.shields.io/github/contributors/nottherealalanturing/KramericaIndustries.svg?style=for-the-badge
 [contributors-url]: https://github.com/nottherealalanturing/KramericaIndustries/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/nottherealalanturing/KramericaIndustries.svg?style=for-the-badge
-[forks-url]: https://github.com/nottherealalanturing/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/nottherealalanturing/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/nottherealalanturing/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/nottherealalanturing/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/nottherealalanturing/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/nottherealalanturing/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/nottherealalanturing/repo_name/blob/master/LICENSE.txt
+[forks-url]: https://github.com/nottherealalanturing/kramericaindustries/network/members
+[stars-shield]: https://img.shields.io/github/stars/nottherealalanturing/kramericaindustries.svg?style=for-the-badge
+[stars-url]: https://github.com/nottherealalanturing/kramericaindustries/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nottherealalanturing/kramericaindustries.svg?style=for-the-badge
+[issues-url]: https://github.com/nottherealalanturing/kramericaindustries/issues
+[license-shield]: https://img.shields.io/github/license/nottherealalanturing/kramericaindustries.svg?style=for-the-badge
+[license-url]: https://github.com/nottherealalanturing/kramericaindustries/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/assadisah
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: /assets/images/screenshot.png
