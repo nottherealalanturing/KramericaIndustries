@@ -167,9 +167,9 @@ Project Link: [https://github.com/nottherealalanturing/KramericaIndustries](http
 
 Design and inspiration by Cindy Shin on Behance.
 
-- [https://www.behance.net/gallery/29845175/CC-Global-Summit-2015] (Design and inspiration by Cindy Shin on Behance.)
-- [https://en.wikipedia.org/wiki/Seinfeld] (Seinfeld)
-- [https://en.wikipedia.org/wiki/It%27s_Always_Sunny_in_Philadelphia] (IASIP)
+- [Design and inspiration by Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- [Seinfeld](https://en.wikipedia.org/wiki/Seinfeld)
+- [IASIP](https://en.wikipedia.org/wiki/It%27s_Always_Sunny_in_Philadelphia)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
