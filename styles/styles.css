@@ -493,7 +493,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: 80px 20px;
-  background-image: url('assets/images/product-school2.jpg');
+  background-image: url('../assets/images/product-school2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.9s;
