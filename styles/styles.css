@@ -21,6 +21,15 @@ html {
 }
 
 /* Navigation Mobile */
+
+.nav-desktop {
+  display: none;
+}
+
+.top-bar {
+  display: none;
+}
+
 #nav-icon {
   width: 65px;
   height: 40px;
@@ -602,7 +611,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 5px 10%;
-    background-color: #d3d3d3;
+    box-shadow: 4px 2px 3px #d3d3d3;
   }
 
   .nav-desktop a {
@@ -616,6 +625,117 @@ html {
   .nav-desktop-ul {
     display: flex;
     list-style-type: none;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .nav-desktop-li a {
+    color: #3c3f46;
+  }
+
+  .nav-desktop-li a:active,
+  .nav-desktop-li a:visited {
+    color: #ec5242;
+  }
+
+  .ki-campaign {
+    border: 1px solid #ec5242;
+    padding: 10px;
+    color: #3c3f46;
+  }
+
+  .ki-campaign:hover {
+    background-color: #ec5242;
+    color: #d3d3d3;
+  }
+
+  /* HERO SECTION DESKTOP */
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 10%;
+  }
+
+  .hero-text-1 {
+    color: #ec5242;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .hero-header-1 {
+    color: #ec5242;
+    font-weight: 700;
+    font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+  }
+
+  .hero-text-2 {
+    padding: 15px;
+    color: #272a31;
+    width: 70%;
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+
+  .hero-header-2 {
+    color: #272a31;
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+  .hero-text-3 {
+    color: #272a31;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .services ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
     gap: 10px;
+  }
+
+  .service-item {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3c3f46;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .service-item-image {
+    flex: 1 1 100px;
+  }
+
+  .service-item-title {
+    flex: 2 2 0;
+    color: #ec5242;
+  }
+
+  .service-item-description {
+    flex: 2 2 0;
+    color: #d3d3d3;
+  }
+
+  .services-button {
+    background-color: #ec5242;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    width: 30%;
+    color: #3c3f46;
+    border: 1px solid #d3d3d3;
+  }
+
+  .services-button:hover {
+    background-color: #ec534200;
+    color: #d3d3d3;
   }
 }
