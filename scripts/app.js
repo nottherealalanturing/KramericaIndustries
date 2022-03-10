@@ -1,7 +1,5 @@
 import { loadEmployees, loadServices, loadproducts } from './index.js';
 
-const products = document.getElementById('productslaunch-ul');
-
 if (document.getElementById('productslaunch-ul') !== null) {
   loadproducts();
 }
