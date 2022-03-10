@@ -604,9 +604,9 @@ html {
 }
 
 .footer {
-  display: grid;
+  display: flex;
   padding: 20px;
-  grid-template-columns: 1fr 3fr;
+  justify-content: center;
   align-items: center;
   gap: 10px;
 }
@@ -1047,10 +1047,11 @@ html {
   }
 
   .footer {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 100px 10%;
+    gap: 5%;
   }
 
   .footer-1 {
