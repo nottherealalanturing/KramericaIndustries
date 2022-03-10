@@ -70,7 +70,7 @@ const loadEmployees = () => {
         class="employees-item-image-1"
       />
       <img
-        src="../assets/images/${employeesArrays[i].img}"
+        src="assets/images/${employeesArrays[i].img}"
         alt="${employeesArrays[i].name}"
         class="employees-item-image-2"
       />
