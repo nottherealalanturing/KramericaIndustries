@@ -45,7 +45,7 @@ const loadServices = () => {
     const literal = `
     <li class="service-item">
     <img
-      src="../assets/icons/${servicesArrays[i].img}"
+      src="assets/icons/${servicesArrays[i].img}"
       alt="${servicesArrays[i].name}"
       class="service-item-image"
     />

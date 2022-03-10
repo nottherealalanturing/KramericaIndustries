@@ -65,7 +65,7 @@ const loadEmployees = () => {
     <li class="employees-item">
     <div class="employees-item-image-div">
       <img
-        src="../assets/images/checkered-pattern.jpg"
+        src="assets/images/checkered-pattern.jpg"
         alt="checkered-pattern"
         class="employees-item-image-1"
       />
