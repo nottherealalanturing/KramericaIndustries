@@ -495,7 +495,7 @@ html {
   padding: 80px 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: all 0.9s;
+  transition: all 0.2s;
 }
 
 .about-past-item-1:nth-child(1) {
@@ -504,18 +504,6 @@ html {
 
 .about-past-item-1:nth-child(2) {
   background-image: url('../assets/images/product-school1.jpg');
-}
-
-.about-past-item-1:nth-child(3) {
-  background-image: url('../assets/images/product-school.jpg');
-}
-
-.about-past-item-1:nth-child(4) {
-  background-image: url('../assets/images/product-school2.jpg');
-}
-
-.about-past-item-1:nth-child(5) {
-  background-image: url('../assets/images/product-school2.jpg');
 }
 
 .about-past-item-1:hover {
@@ -998,7 +986,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-self: flex-start;
+    align-self: center;
   }
 
   .about-partners {

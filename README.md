@@ -40,7 +40,7 @@
     <a href="https://github.com/nottherealalanturing/kramericaindustries"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://nottherealalanturing.github.io/KramericaIndustries/index.html">View Demo</a>
+    <a href="https://www.loom.com/share/d83b7bbe9ca9481b861fe8863b3b5e8f">View Demo</a>
     ·
     <a href="https://github.com/nottherealalanturing/kramericaindustries/issues">Report Bug</a>
     ·
@@ -164,8 +164,6 @@ Project Link: [https://github.com/nottherealalanturing/KramericaIndustries](http
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
-
-Design and inspiration by Cindy Shin on Behance.
 
 - [Design and inspiration by Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - [Seinfeld](https://en.wikipedia.org/wiki/Seinfeld)

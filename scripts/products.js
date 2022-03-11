@@ -13,21 +13,6 @@ const productsArrays = [
     year: '2021',
     desc: 'Lorem, ipsum dolor sit amet consectetur',
   },
-  {
-    img: 'product-school2.jpg',
-    year: '2020',
-    desc: 'Lorem, ipsum dolor sit amet consectetur',
-  },
-  {
-    img: 'product-school2.jpg',
-    year: '2020',
-    desc: 'Lorem, ipsum dolor sit amet consectetur',
-  },
-  {
-    img: 'product-school2.jpg',
-    year: '2019',
-    desc: 'Lorem, ipsum dolor sit amet consectetur',
-  },
 ];
 
 const loadproducts = () => {
